@@ -5,6 +5,7 @@
 - file: dynamics
 - file: electronstructure
 - file: electrondynamics
+- file: zbibliography
 #  sections:
 #    - file: markdown
 #    - file: notebooks
