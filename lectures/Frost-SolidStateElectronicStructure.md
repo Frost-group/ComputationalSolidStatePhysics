@@ -1,38 +1,13 @@
-![](img/2021-10-Frost-SolidStateElectronicStructure0.png)
-
-![](img/2021-10-Frost-SolidStateElectronicStructure1.png)
-
-![](img/2021-10-Frost-SolidStateElectronicStructure2.png)
-
-![](img/2021-10-Frost-SolidStateElectronicStructure3.png)
-
-![](img/2021-10-Frost-SolidStateElectronicStructure4.png)
-
-# Solid state electronic structure & dynamics
-
-# Jarvist Moore Frost.
-
-![](img/2021-10-Frost-SolidStateElectronicStructure5.jpg)
-
-Styles \+ Sizes: \(by Golden Ratio\)
-
-36 for large headline\, Montserrat
-
-22 for big text / small headlines\, Questrial \(Futura like\)
-
-14 for small text\, Questrial
-
-9 \(8\.5\) for smaller text\, Questrial
-
-36 Montserrat \- SemiBold
-
-22 Questrial big text  // 22 Montserrat \- SemiBold \(small headings\)
-
-__14 for small text\, Questrial__
-
-__9 \(8\.5\) for smaller text\, Questrial__
-
-# Solid state dynamics
+---
+title: "Solid State Structure"
+author: "Jarvist Moore Frost"
+format: 
+  beamer: 
+    aspectratio: 32
+    navigation: horizontal
+    theme: AnnArbor
+    colortheme: lily
+---
 
 # Vibrations, phonons & all that
 
