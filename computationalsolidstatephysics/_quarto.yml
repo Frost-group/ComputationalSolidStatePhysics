@@ -2,11 +2,13 @@ project:
   type: book
 
 book:
-  title: "computationalsolidstatephysics"
-  author: "Jane Doe"
-  date: "06/09/2022"
+  title: "Computational Solid State Physics"
+  author: "Jarvist Moore Frost"
+  date: "2022-09-01"
+  conver-image: "cover.svg"
   chapters:
     - index.qmd
+    - intro.qmd
     - structure.qmd
     - dynamics.qmd
     - electronstructure.qmd
