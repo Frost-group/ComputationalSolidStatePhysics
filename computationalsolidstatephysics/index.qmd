@@ -1,5 +1,9 @@
 # Preface {.unnumbered}
 
+Welcome to the Computational Solid State Physics book; a work in progress.
+
+![Dirac notation of overlap of Silicon with a wavefunction, via a digital chip.](cover.png)
+
 This is a Quarto book.
 
 To learn more about Quarto books visit <https://quarto.org/docs/books>.
