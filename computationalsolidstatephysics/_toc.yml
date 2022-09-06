@@ -1,8 +1,0 @@
-format: jb-article
-root: intro
-sections:
-- file: structure
-- file: dynamics
-- file: electronstructure
-- file: electrondynamics
-- file: zbibliography

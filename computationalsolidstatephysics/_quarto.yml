@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "computationalsolidstatephysics"
+  author: "Jane Doe"
+  date: "06/09/2022"
+  chapters:
+    - index.qmd
+    - structure.qmd
+    - dynamics.qmd
+    - electronstructure.qmd
+    - electrondynamics.qmd
+    - zbibliography.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
