@@ -1,6 +1,6 @@
 # Preface {.unnumbered}
 
-Welcome to the Computational Solid State Physics book; a work in progress.
+Welcome to Jarv's Primer in Computational Solid State Physics; a work in progress.
 
 ![Dirac notation of overlap of Silicon with a wavefunction, via a digital chip.](cover.png)
 

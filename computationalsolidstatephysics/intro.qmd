@@ -1,17 +1,40 @@
 Introduction
 ============
 
-In this final part of the course, we will use computational tools to understand
-solid-state physics. Solid-state physics is complex and messy (Murray Gell-Mann
-described it as the ‘squalid-state’). In an undergraduate curriculum we are
-limited to what we can understand analytically, and calculations that are
-tractable by hand. Therefore we are limited to non-interacting quantum
-theories, and one-dimensional ‘toy’ examples of perfect ‘crystals’. Real
+
+Solid-state physics is complex and messy (Murray Gell-Mann described it as the
+‘squalid-state’). 
+Most textbooks start with calculations that are tractable by hand.  
+This limits us to non-interacting quantum
+theories, typically applied to  one-dimensional ‘toy’ examples of perfect ‘crystals’. Real
 materials are firmly embedded in a three dimensional world. Much important
 technical behaviour (even of crystals) is dictated by very low concentrations
 of disorder or dopants in the material. In molecular materials, the
 microstructure (how the material packs) is of high importance for electrical
 and optical properties, but extremely difficult to probe experimentally.
+
+To understand real materials we need to use numeric methods on a computer. 
+The electronic structure codes (and underlying numeric methods) to model materials are fiendishly complex. 
+To make progress, one needs to use community codes rather than write everything ourselves. 
+There are now extremely well tested and refined open source codes implemented a plethora of electronic structure methods. 
+Modern computers are really fast - good science can be done on a single Desktop PC. 
+Due to strategic investment by research councils, most scientists can get access to considerable high performance computing resource. 
+So it's a great time to be applying solid-state theory to real materials! 
+
+## The need for a primer
+
+The undergraduate physics course contains solid-state theory. 
+But generally in one-dimension (or maybe with BCC and FCC structures), and with
+'pen and paper' solutions.  
+This an obviously useful background for starting research in solid-state
+materials, but there is quite a considerable gap between the fairly elementary
+methods taught, and then the methods implemented in a community code. 
+
+For people coming to solid-state research from a more Materials Science or
+Chemistry background, these techniques and mathematical approaches need to be
+learnt from the bottom up
+
+## Electronic structure theory
 
 Everything we see and touch and hear is due to the electronic structure of
 materials. Due to its large mass, the atomic nucleus (at energies we care
