@@ -5,7 +5,7 @@ book:
   title: "Computational Solid State Physics"
   author: "Jarvist Moore Frost"
   date: "2022-09-01"
-  conver-image: "cover.svg"
+  cover-image: "cover.svg"
   chapters:
     - index.qmd
     - intro.qmd
