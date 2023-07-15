@@ -1,6 +1,20 @@
 Solid state structure
 =====================
 
+## Bloch's theorem
+
+## Reciprocal space
+
+## Symmetry
+
+### Point groups
+
+### Space groups
+
+## Scattering
+
+### Structure factor
+
 ## Reading
 
 The 30th Feynman Lecture on Physics is a succinct introduction to periodicity

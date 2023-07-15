@@ -1,6 +1,12 @@
 Solid state electronic structure
 ================================
 
+## Tight-binding
+
+## Effective mass
+
+## Going ab-initio
+
 Most 21st Century electronic structure theory is based in 'ab-initio' methods which, within certain rigorous mathematical approximations, attempt to directly solve the Schr\"odinger equation for the electrons interacting with the nuclear charges. 
 Previously, 'semi-empirical' methods dominated which used effective parameters and then solved a lesser problem, which is much less computationally expensive. 
 These methods, such as tight-binding, are still important but now mostly relegated to niche applications where the system size demands it.
@@ -21,3 +27,12 @@ Bosons such as photons of light, which have integer spin, actually prefer to be 
 This half-integer Fermionic spin results in a wavefunction that must change sign if you exchange any two electron labels.
 
 $$\Psi(...,r_n,...,r_m,...) = - \Psi(...,r_m,...,r_n,...)$$
+
+
+## Density functional theory
+
+### True DFT
+
+### KS DFT
+
+### Hybrid DFT
