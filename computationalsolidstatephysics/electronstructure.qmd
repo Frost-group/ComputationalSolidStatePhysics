@@ -1,3 +1,23 @@
 Solid state electronic structure
 ================================
 
+Most 21st Century electronic structure theory is based in 'ab-initio' methods which, within certain rigorous mathematical approximations, attempt to directly solve the Schr\"odinger equation for the electrons interacting with the nuclear charges. 
+Previously, 'semi-empirical' methods dominated which used effective parameters and then solved a lesser problem, which is much less computationally expensive. 
+These methods, such as tight-binding, are still important but now mostly relegated to niche applications where the system size demands it.
+
+The most import method is Hartree-Fock. This is often considered quite old-hat. And to be fair, the original work was all done in the 1920s. But it is explicitly used as a reference in the 'post-Hartree-Fock' methods which are our highest accuracy approaches, and used as a computational basis by all density functional theory approaches. 
+
+## Hartee-Fock
+
+Quantum-mechanical spin is almost certainly the least well understood concept of the standard undergraduate physics syllabus.
+Spin behaves like angular momenetum (i.e. the electron spinning like a top), but is perhaps better thought of as a fundamental feature of quantum-mechanical particles.
+
+Electrons are spin $1/2$ Fermions. (Fermions have half-integer quantum-mechanical spin, Bosons have integer spin. These are the only two possibilities) 
+On the surface this seems like a trivial mathematical fact. 
+But it directly leads to the Pauli exclusion principle: no two electrons can have the same quantum mechanical state. 
+Quite simply, this is the reason I cannot put my hand through the table. 
+Bosons such as photons of light, which have integer spin, actually prefer to be in the same quantum-mechanical state, leading to the lasing of light and superfluid Bose-Einstein condensation (BEC). Similarly, the superconducting state arises when the electrons pair up (Cooper pairing) to cancel out the spin and start acting like Bosons. 
+
+This half-integer Fermionic spin results in a wavefunction that must change sign if you exchange any two electron labels.
+
+$$\Psi(...,r_n,...,r_m,...) = - \Psi(...,r_m,...,r_n,...)$$

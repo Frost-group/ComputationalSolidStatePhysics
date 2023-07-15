@@ -1,3 +1,7 @@
 Solid state structure
 =====================
 
+## Reading
+
+The 30th Feynman Lecture on Physics is a succinct introduction to periodicity
+and structure. <https://www.feynmanlectures.caltech.edu/II_30.html>
