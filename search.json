@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Computational Solid State Physics",
+    "section": "",
+    "text": "Preface\nWelcome to Jarv’s Primer in Computational Solid State Physics; a work in progress.\n\n\n\nDirac notation of overlap of Silicon with a wavefunction, via a digital chip.\n\n\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
+  },
+  {
+    "objectID": "intro.html#the-need-for-a-primer",
+    "href": "intro.html#the-need-for-a-primer",
+    "title": "1  Introduction",
+    "section": "1.1 The need for a primer",
+    "text": "1.1 The need for a primer\nThe undergraduate physics course contains solid-state theory. But generally in one-dimension (or maybe with BCC and FCC structures), and with ‘pen and paper’ solutions.\nThis an obviously useful background for starting research in solid-state materials, but there is quite a considerable gap between the fairly elementary methods taught, and then the methods implemented in a community code.\nFor people coming to solid-state research from a more Materials Science or Chemistry background, these techniques and mathematical approaches need to be learnt from the bottom up"
+  },
+  {
+    "objectID": "intro.html#electronic-structure-theory",
+    "href": "intro.html#electronic-structure-theory",
+    "title": "1  Introduction",
+    "section": "1.2 Electronic structure theory",
+    "text": "1.2 Electronic structure theory\nEverything we see and touch and hear is due to the electronic structure of materials. Due to its large mass, the atomic nucleus (at energies we care about!) is effectively a point charge. The much lighter electrons delocalise quantum mechanically, and form the atomic orbitals with hybridise into covalent bonds, and the bonds which delocalise in the solid state to provide the band structure of a material. Therefore, to predict any and all behaviour of a material, we simply need to solve the Schroedinger equation of motion that governs the electron dynamics.\nUnfortunately, this calculation is totally intractable with a classical computer! The equations have been known since the 20s, and a practical algorithm (called ‘configuration interaction’) since the 30s. But the computational cost scales as the factorial of the number of electrons in your system (O(N!) in Knuth’s big-O’ notation). This is a problem. Even solving a moderately sized system (dozens of atoms) would require a supercomputer running until the heat death of the universe1. A single gram of a solid-state material contains about10^23 electrons.\nFaced with this insurmountable computational cliff, many clever approximations have been developed. If you are a physicist, you describe this area of research as ‘electronic structure theory’, and if you’re a chemist, as ‘quantum chemistry’. The most successful theory is the beautiful ‘density functional theory’ (DFT), made practical in the 1980s by linearisation, and more accurate in the 1990s by the clever kludge of ‘hybrid density functional theory’.\nThese approximations are eye-achingly complex and subtle. Many of these approximations are ‘uncontrolled’ in that it is not known ahead of time whether they under or overestimate the predicted quantity. None of the approximations are actually that good or universally applicable. You can tell this by the fact that there are so many different methods still in use - if one actually worked, we’d just that one, and stop talking about it so much! (Famously DFT fails even for the seemingly trivial case of disassociating H2+.) Most progress in applying these methods to real materials has been brought about by the implementation of these methods in easy to use computer codes, allowing other researchers to effectively use the methods as ‘black boxes’.\nThis is a major problem for the progress of our field. Experiment always needs to be backed up by theory. In solid-state materials, this theory almost always needs to be computational (due to complex materials). And if your computational theory is a black box, you’re not really adding much understanding, just showing that you can reproduce nature.\nSo the focus of this small part of the course is to try and teach you the skills to interpret what these highfalutin computational methods are calculating, and to try and show you how to peel back the layers to get to something malleable that you can work with."
+  },
+  {
+    "objectID": "structure.html#blochs-theorem",
+    "href": "structure.html#blochs-theorem",
+    "title": "2  Solid state structure",
+    "section": "2.1 Bloch’s theorem",
+    "text": "2.1 Bloch’s theorem"
+  },
+  {
+    "objectID": "structure.html#reciprocal-space",
+    "href": "structure.html#reciprocal-space",
+    "title": "2  Solid state structure",
+    "section": "2.2 Reciprocal space",
+    "text": "2.2 Reciprocal space"
+  },
+  {
+    "objectID": "structure.html#symmetry",
+    "href": "structure.html#symmetry",
+    "title": "2  Solid state structure",
+    "section": "2.3 Symmetry",
+    "text": "2.3 Symmetry\n\n2.3.1 Point groups\n\n\n2.3.2 Space groups"
+  },
+  {
+    "objectID": "structure.html#scattering",
+    "href": "structure.html#scattering",
+    "title": "2  Solid state structure",
+    "section": "2.4 Scattering",
+    "text": "2.4 Scattering\n\n2.4.1 Structure factor"
+  },
+  {
+    "objectID": "structure.html#reading",
+    "href": "structure.html#reading",
+    "title": "2  Solid state structure",
+    "section": "2.5 Reading",
+    "text": "2.5 Reading\nThe 30th Feynman Lecture on Physics is a succinct introduction to periodicity and structure. https://www.feynmanlectures.caltech.edu/II_30.html"
+  },
+  {
+    "objectID": "dynamics.html#harmonic-phonons",
+    "href": "dynamics.html#harmonic-phonons",
+    "title": "3  Solid state dynamics",
+    "section": "3.1 Harmonic phonons",
+    "text": "3.1 Harmonic phonons\n\n3.1.1 Αnharmonic phonons"
+  },
+  {
+    "objectID": "dynamics.html#molecular-dynamics",
+    "href": "dynamics.html#molecular-dynamics",
+    "title": "3  Solid state dynamics",
+    "section": "3.2 Molecular dynamics",
+    "text": "3.2 Molecular dynamics"
+  },
+  {
+    "objectID": "dynamics.html#dynamic-scattering",
+    "href": "dynamics.html#dynamic-scattering",
+    "title": "3  Solid state dynamics",
+    "section": "3.3 Dynamic scattering",
+    "text": "3.3 Dynamic scattering\n\n3.3.1 Dynamic structure factor"
+  },
+  {
+    "objectID": "electronstructure.html#tight-binding",
+    "href": "electronstructure.html#tight-binding",
+    "title": "4  Solid state electronic structure",
+    "section": "4.1 Tight-binding",
+    "text": "4.1 Tight-binding"
+  },
+  {
+    "objectID": "electronstructure.html#effective-mass",
+    "href": "electronstructure.html#effective-mass",
+    "title": "4  Solid state electronic structure",
+    "section": "4.2 Effective mass",
+    "text": "4.2 Effective mass"
+  },
+  {
+    "objectID": "electronstructure.html#going-ab-initio",
+    "href": "electronstructure.html#going-ab-initio",
+    "title": "4  Solid state electronic structure",
+    "section": "4.3 Going ab-initio",
+    "text": "4.3 Going ab-initio\nMost 21st Century electronic structure theory is based in ‘ab-initio’ methods which, within certain rigorous mathematical approximations, attempt to directly solve the Schr\"odinger equation for the electrons interacting with the nuclear charges. Previously, ‘semi-empirical’ methods dominated which used effective parameters and then solved a lesser problem, which is much less computationally expensive. These methods, such as tight-binding, are still important but now mostly relegated to niche applications where the system size demands it.\nThe most import method is Hartree-Fock. This is often considered quite old-hat. And to be fair, the original work was all done in the 1920s. But it is explicitly used as a reference in the ‘post-Hartree-Fock’ methods which are our highest accuracy approaches, and used as a computational basis by all density functional theory approaches."
+  },
+  {
+    "objectID": "electronstructure.html#hartee-fock",
+    "href": "electronstructure.html#hartee-fock",
+    "title": "4  Solid state electronic structure",
+    "section": "4.4 Hartee-Fock",
+    "text": "4.4 Hartee-Fock\nQuantum-mechanical spin is almost certainly the least well understood concept of the standard undergraduate physics syllabus. Spin behaves like angular momenetum (i.e. the electron spinning like a top), but is perhaps better thought of as a fundamental feature of quantum-mechanical particles.\nElectrons are spin \\(1/2\\) Fermions. (Fermions have half-integer quantum-mechanical spin, Bosons have integer spin. These are the only two possibilities) On the surface this seems like a trivial mathematical fact. But it directly leads to the Pauli exclusion principle: no two electrons can have the same quantum mechanical state. Quite simply, this is the reason I cannot put my hand through the table. Bosons such as photons of light, which have integer spin, actually prefer to be in the same quantum-mechanical state, leading to the lasing of light and superfluid Bose-Einstein condensation (BEC). Similarly, the superconducting state arises when the electrons pair up (Cooper pairing) to cancel out the spin and start acting like Bosons.\nThis half-integer Fermionic spin results in a wavefunction that must change sign if you exchange any two electron labels.\n\\[\\Psi(...,r_n,...,r_m,...) = - \\Psi(...,r_m,...,r_n,...)\\]"
+  },
+  {
+    "objectID": "electronstructure.html#density-functional-theory",
+    "href": "electronstructure.html#density-functional-theory",
+    "title": "4  Solid state electronic structure",
+    "section": "4.5 Density functional theory",
+    "text": "4.5 Density functional theory\n\n4.5.1 True DFT\n\n\n4.5.2 KS DFT\n\n\n4.5.3 Hybrid DFT"
+  },
+  {
+    "objectID": "electrondynamics.html#εffective-mass",
+    "href": "electrondynamics.html#εffective-mass",
+    "title": "5  Solid state electron dynamics",
+    "section": "5.1 Εffective mass",
+    "text": "5.1 Εffective mass"
+  },
+  {
+    "objectID": "electrondynamics.html#drude-model-for-electron-mobility",
+    "href": "electrondynamics.html#drude-model-for-electron-mobility",
+    "title": "5  Solid state electron dynamics",
+    "section": "5.2 Drude model for electron mobility",
+    "text": "5.2 Drude model for electron mobility"
+  },
+  {
+    "objectID": "electrondynamics.html#boltzmann-transport-equation",
+    "href": "electrondynamics.html#boltzmann-transport-equation",
+    "title": "5  Solid state electron dynamics",
+    "section": "5.3 Boltzmann transport equation",
+    "text": "5.3 Boltzmann transport equation"
+  }
+]
