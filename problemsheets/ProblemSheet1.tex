@@ -1,0 +1,149 @@
+%Example of use of oxmathproblems latex class for problem sheets
+\documentclass{oxmathproblems}
+
+\usepackage{hyperref}
+
+%(un)comment this line to enable/disable output of any solutions in the file
+%\printanswers
+
+%define the page header/title info
+\oxfordterm{Term 1 2024}
+\course{MRes in Soft Electronic Materials}
+\sheetnumber{Solid State 1}
+%\sheettitle{} %can leave out if no title per sheet
+
+% add further contact details to footer if desired,
+%e.g. email address, or name and email address
+\contact{Set by Jarvist Moore Frost: jarvist.frost@imperial.ac.uk; please email with errata.}
+
+
+\begin{document}
+Reciprocal lattice
+
+\begin{questions}
+
+\miquestion
+A two-dimensional rectangular crystal has a unit cell with sides $a_1
+    = 0.468$~nm and $a_2 = 0.342$~nm. 
+
+    \begin{parts}
+\part
+What is the area of the unit cell?
+\part
+Draw to scale a diagram of the reciprocal lattice of this crystal.
+\part
+Label the reciprocal lattice high-symmetry locations. 
+\end{parts}
+
+\miquestion
+A collimated beam of monochromatic X-rays with wavelength $0.166$~nm is used to
+exmaine the crystal.
+
+\begin{parts}
+\part
+Calculate the Bragg condition from scattering from the $a_1$ plane of the
+    crystal.
+\part
+Calculate the Bragg condition from scattering from the $a_2$ plane of the
+    crystal.
+\part
+Draw a diagram showing the expected Bragg peaks from this crystal, plotting as
+a function of $2\theta$. 
+\end{parts}
+
+\begin{solution}
+% $1 + 1i$  
+\end{solution}
+
+\miquestion
+Metals and insulators. Explain the following:
+
+\begin{parts}
+    \part
+sodium, which has two atoms in a bcc (conventional cubic) unit cell, is
+    a metal.
+\part
+    calcium, which has four atoms in an fcc (conventional cubic) unit cell, is
+    a metal.
+\part
+    diamond, which has eight atoms in an fcc (conventional cubic) unit cell, is
+    an electrical insulator, whereas silicon and germanium, which have similar
+    structures, are semiconductors.
+    (Try to think up several possible reasons!)
+\part
+    Why is diamond transparent?
+\part
+    Why are metals not transparent?
+\part
+    Why are metals shiny?
+\end{parts}
+
+
+\miquestion
+Effective mass. 
+
+Let us assume that in a semiconductor, we can describe the dispersion relation
+as a Taylor expansion,
+
+$E(k)=E_0 + \alpha |k-k_0|^2 + ...$
+
+with $\alpha>0$ and $...$ being the higher order terms in the Taylor expansion
+which we will ignore (harmonic approximation). 
+
+We can then define the effective mass as
+
+$\frac{\hbar^2}{2m^*} = \frac{\partial^2 E}{\partial k^2} = 2\alpha$.
+
+Let us consider an electron near the top of the valence band in
+a seminconductor with dispersion relation
+
+    $E(k)=-10^{-37} |k|^2$,
+
+where $E$ is in Joules, and $k$ is in $m^{-1}$. 
+
+We remove an electron from state $k=2x10^{-8}$~m$^{-1} \hat x$, where $\hat x$ is
+the unit vector in the $x$-direction. 
+
+For a hole, calculate, and give the sign of:
+
+\begin{parts}
+    \part
+the effective mass,
+\part
+the energy,
+\part
+the momentum,
+\part
+the velocity. 
+\end{parts}
+
+
+\miquestion
+
+Drude mobility theory. In the low density limit, such as the semiconductor
+described above, the Drude transport equation (really just Newton's laws of
+motion) is a good approximation, and can be written down as
+
+$m^* a = m^* \frac{dv}{dt} = -e*E - m^* v / \tau$,
+
+here $E$ is the electric field, $v$ the velocity, $e$ the charge of an
+electron, and $\tau$ the scattering time. 
+
+The mobility ($\mu$) is the ratio of the velocity to the electric field, and therefore 
+
+$\mu = \frac{|v|}{|E|} = \frac{e\tau}{m^*}$
+
+\begin{parts}
+    \part Assuming a scattering time of 1~ps, calculate the mobility for the
+    semiconductor above.
+
+\end{parts}
+
+%force a page break for better layout of questions 
+%NOTE: only force pagebreaks at the final stage for perfecting the layout
+%\newpage
+
+
+\end{questions}
+
+\end{document}
